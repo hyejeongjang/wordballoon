@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.top_viewpage {
+  width: 100%;
+  height: 130px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fab404;
+}
+.logo_viewpage {
+  width: 22%;
+  height: 130px;
+  float: left;
+}
+.logo_viewpage #logo_homepage_1 {
+  position: relative;
+  display: table;
+  text-align: middle;
+  color: white;
+  margin: 0;
+  padding-left: 40%;
+  padding-top: 30px;
+}
+.logo_viewpage #logo_homepage_2 {
+  position: relative;
+  display: table;
+  text-align: middle;
+  color: white;
+  margin: 0;
+  padding-left: 40%;
+}
+.search_viewpage {
+  width: 50%;
+  height: 130px;
+  float: left;
+}
+.click_viewpage {
+  width: 20%;
+  height: 130px;
+  float: left;
+  font-size: large;
+  margin-top: 50px;
+}
+.search_viewpage #search_bar_viewpage {
+  width: 84%;
+  height: 30px;
+}
+.search_viewpage #search_btn_viewpage {
+  margin-top: 50px;
+  width: 12%;
+  height: 35px;
+  margin-left: 2px;
+  background-color: white;
+}
+.click_viewpage #mypage_viewpage {
+  margin-right: 30px;
+  margin-left: 50px;
+}
+.bottom_viewpage {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+body {
+  padding: 0;
+  font-family: "맑은 고딕";
+  font-size: 1em;
+}
+ul#navi {
+  width: 300px;
+  text-indent: 10px;
+}
+ul#navi,
+ul#navi ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li.group {
+  margin-bottom: 0px;
+}
+li.group div.title {
+  height: 35px;
+  line-height: 35px;
+  background: white;
+  cursor: pointer;
+  border: 1.5px solid #fab404;
+}
+ul.sub li {
+  margin-bottom: 2px;
+  height: 35px;
+  line-height: 35px;
+  background: white;
+  cursor: pointer;
+  border: 0.5px solid #fcde94;
+}
+ul.sub li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: gray;
+}
+ul.sub li:hover {
+  background: #fcde94;
+}
+.video {
+  text-align: center;
+  margin-top: 50px;
+}
