@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+  border: none;
+}
+.top_homepage {
+  position: relative;
+  height: 130px;
+  background-color: #fab404;
+  margin-top: 0;
+}
+.top_homepage #logo_homepage {
+  position: relative;
+  display: table;
+  text-align: middle;
+  color: white;
+  margin: auto;
+}
+.container {
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+  background: #afafaf;
+}
+
+.column_left {
+  display: block;
+  float: left;
+  width: 740px;
+  height: auto;
+  background: white;
+}
+.search {
+  position: relative;
+  border: 3px solid #fab404;
+  border-radius: 20px;
+  margin: 45px 7px;
+}
+.search #search_bar {
+  width: 630px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 2px;
+  margin-left: 15px;
+}
+
+.search #search_btn {
+  width: 50px;
+  height: 40px;
+  border-left: 3px solid #fab404;
+  padding: 11px 15px 15px 15px;
+}
+
+.top_video {
+  position: relative;
+  display: block;
+  height: 500px;
+  border: 1px solid #fab404;
+}
+.top_video #top_video_text {
+  margin: 0px;
+}
+
+.column_right {
+  display: block;
+  float: right;
+  width: 332px;
+  height: auto;
+}
+
+.login {
+  position: relative;
+  height: 118px;
+  border: 1px solid #fab404;
+  padding: 15px 25px;
+  background: #ffffff;
+}
+.login #login_btn {
+  display: block;
+  height: 20px;
+  margin: 12px 12px;
+  background: #fab404;
+  text-align: center;
+  padding: 20px 0px;
+}
+.login #login_q {
+  text-align: center;
+  margin: 12px 12px;
+  color: #666;
+}
+.login #login_join {
+  text-align: center;
+  text-decoration: underline;
+  margin: 12px 12px;
+  color: #666;
+}
+
+.category {
+  position: relative;
+  height: 118px;
+  border: 1px solid #fab404;
+  padding: 15px 25px;
+  background: #ffffff;
+  margin-top: 5px;
+}
